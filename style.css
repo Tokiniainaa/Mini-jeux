@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+transition: 0.5s;
+font-family: 'PT Serif', serif;
+
+}
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+#put{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:url(manette.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#attempt{
+    font-weight: bolder;
+}
+#button{
+    font-weight: 1000;
+    font-size: medium;
+}
+.moin{
+
+    padding-left:30%;
+    width: 60%;
+}
+
+section{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px white solid;
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding:60px;
+    
+    
+}
+p{
+   color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+div{
+    color: white;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    width: calc(100% - 100px);
+    padding: 16px 5px;
+    height: 30%;
+    outline:0;
+    border: 2px solid white;
+    border-radius: 50px 0 0 50px;
+    align-items: center;
+    
+}
+
+button {
+    width: 100px;
+    border: 1px solid aqua;
+    background-color:aqua;
+    color:rgb(243, 247, 246);
+    border-radius: 0 60px 60px 0;
+    cursor: pointer;
+    
+}
+#link{
+  display: none;
+  text-align: center;
+  justify-content: center;  
+}
+a {
+    text-align: center;
+    border: 2px solid rgb(97, 52, 12);
+    padding: 16px 70px;
+    text-decoration: 0;
+    color: rgb(237, 232, 232);
+    transition:0.5s ;
+    border-radius:60px;
+    cursor: pointer;
+    background-color: rgba(102, 48, 11, 0.933);
+    height: 30%;
+}
+a:hover{
+    background-color: transparent;
+    
+}
